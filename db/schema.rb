@@ -12,7 +12,7 @@
 
 ActiveRecord::Schema[7.0].define(version: 2023_08_26_170720) do
   create_table "books", force: :cascade do |t|
-    t.string "titke"
+    t.string "title"
     t.text "description"
     t.integer "likes", default: 0
     t.datetime "created_at", null: false
