@@ -130,6 +130,11 @@
   resolved "https://registry.yarnpkg.com/@hotwired/turbo/-/turbo-7.3.0.tgz#2226000fff1aabda9fd9587474565c9929dbf15d"
   integrity sha512-Dcu+NaSvHLT7EjrDrkEmH4qET2ZJZ5IcCWmNXxNQTBwlnE5tBZfN6WxZ842n5cHV52DH/AKNirbPBtcEXDLW4g==
 
+"@prettier/plugin-ruby@^4.0.2":
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/@prettier/plugin-ruby/-/plugin-ruby-4.0.2.tgz#55bc899d2265de09c1f48493324c269ecb95126c"
+  integrity sha512-TOGsMoOLF0BLwRozqtTB/w7HpDHotDSBPfLsMBpCjlMONLSoCWBF1NhZQjiioyLim7tCltzFrCqZp11WcrPOzA==
+
 "@rails/actioncable@^7.0":
   version "7.0.7"
   resolved "https://registry.yarnpkg.com/@rails/actioncable/-/actioncable-7.0.7.tgz#03b5faa8642a80211708e8f1754cf424e9228718"
@@ -162,3 +167,8 @@ esbuild@^0.19.2:
     "@esbuild/win32-arm64" "0.19.2"
     "@esbuild/win32-ia32" "0.19.2"
     "@esbuild/win32-x64" "0.19.2"
+
+prettier@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.0.2.tgz#78fcecd6d870551aa5547437cdae39d4701dca5b"
+  integrity sha512-o2YR9qtniXvwEZlOKbveKfDQVyqxbEIWn48Z8m3ZJjBjcCmUy3xZGIv+7AkaeuaTr6yPXJjwv07ZWlsWbEy1rQ==
