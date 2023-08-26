@@ -14,5 +14,7 @@
       <strong>Likes:</strong>
       <%= book.likes %>
     </p>
+    <%= button_to "Like (#{book.title})",
+                  book_path(book, book: { likes: (book.likes + 1) }) %>
   </div>
 <% end %>
