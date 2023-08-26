@@ -1,17 +1,18 @@
-<div id="<%= dom_id book %>">
-  <p>
-    <strong>Title:</strong>
-    <%= book.title %>
-  </p>
+<%= turbo_stream_from "book#{book.id}" %>
 
-  <p>
-    <strong>Description:</strong>
-    <%= book.description %>
-  </p>
-
-  <p>
-    <strong>Likes:</strong>
-    <%= book.likes %>
-  </p>
-
-</div>
+<%= turbo_frame_tag "book_#{book.id}" do %>
+  <div id="<%= dom_id book %>">
+    <p>
+      <strong>Title:</strong>
+      <%= book.title %>
+    </p>
+    <p>
+      <strong>Description:</strong>
+      <%= book.description %>
+    </p>
+    <p>
+      <strong>Likes:</strong>
+      <%= book.likes %>
+    </p>
+  </div>
+<% end %>
