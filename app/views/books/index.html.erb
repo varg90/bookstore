@@ -2,13 +2,8 @@
 
 <h1>Books</h1>
 
-<div id="books">
-  <% @books.each do |book| %>
-    <%= render book %>
-    <p>
-      <%= link_to "Show this book", book %>
-    </p>
-  <% end %>
-</div>
-
+<%= turbo_stream_from :books %>
+<%= turbo_frame_tag :books, class: 'container d-flex' do %>
+  <%= render @books %>
+<% end %>
 <%= link_to "New book", new_book_path %>
